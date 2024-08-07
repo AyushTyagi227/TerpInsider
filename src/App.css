@@ -2,19 +2,76 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-button {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  font-size: 16px;
+  padding: 8px 55px;
+  cursor: pointer;
+  background-color:#4B2E2A;
+  color: white;
+  border-radius: 9px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.line {
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-top: -650px;
+}
+
+.title {
+  position: absolute;
+  top: 70px;
+  font-size: 70px;
+  color: #4B2E2A;
+  font-family: 'kadwa';
+  font-weight: bold;
+  margin: 0;
+}
+
+.club-buttons{
+  position: absolute;
+  top: 160px;
+  padding: 5px 50px;
+  left: 500px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.classes-buttons{
+  position: absolute;
+  top: 160px;
+  padding: 5px 50px;
+  left: 642px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.other-buttons{
+  position: absolute;
+  top: 160px;
+  padding: 5px 50px;
+  left: 797px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.search-box {
+  position: absolute;
+  top: 220px;
+  padding: 5px 5px;
+  width: 300px;
+  text-align: left;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #F8E5C8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,17 +79,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
